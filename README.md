@@ -58,4 +58,3 @@ Transformo processos manuais e planilhas soltas em **apps, automações e painé
   <a href="mailto:SEU-EMAIL">E-mail</a> ·
   <a href="https://www.instagram.com/SEU-USUARIO">Instagram</a>
 </p>
-

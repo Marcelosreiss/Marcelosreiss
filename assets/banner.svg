@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="270" y1="0" x2="930" y2="0">
+      <stop offset="0" stop-color="#2A569F"/>
+      <stop offset="0.5" stop-color="#0B6E45"/>
+      <stop offset="1" stop-color="#FFCC29"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1f2a3a"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .m { font-family: 'Fira Code', Consolas, 'Courier New', monospace; }
+      .fade1 { opacity: 0; animation: fade .8s ease-out .2s forwards; }
+      .fade2 { opacity: 0; animation: fade .8s ease-out .7s forwards; }
+      .fade3 { opacity: 0; animation: fade .8s ease-out 1.2s forwards; }
+      .fade4 { opacity: 0; animation: fade .8s ease-out 1.7s forwards; }
+      @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+      .bar { transform-box: fill-box; transform-origin: bottom; animation: grow 3.2s ease-in-out infinite alternate; }
+      .b2 { animation-delay: .3s; } .b3 { animation-delay: .6s; } .b4 { animation-delay: .9s; } .b5 { animation-delay: 1.2s; } .b6 { animation-delay: 1.5s; }
+      @keyframes grow { 0% { transform: scaleY(.25); } 100% { transform: scaleY(1); } }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .node { animation: pulse 2.4s ease-in-out infinite; }
+      .n2 { animation-delay: .6s; } .n3 { animation-delay: 1.2s; } .n4 { animation-delay: 1.8s; }
+      @keyframes pulse { 0%,100% { stroke-opacity: .45; } 50% { stroke-opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="16" fill="url(#dots)"/>
+
+  <!-- Título -->
+  <text x="70" y="92" class="t fade1" font-size="52" font-weight="700" fill="#e6edf3">Marcelo Reis</text>
+  <text x="72" y="134" class="m fade2" font-size="24" fill="#FFCC29">&gt; Analista de Dados<tspan class="cursor" fill="#FFCC29">_</tspan></text>
+  <text x="72" y="170" class="t fade3" font-size="17" fill="#8b949e">Engenharia de Dados · Power Platform · Parauapebas, PA</text>
+
+  <!-- Gráfico animado -->
+  <g class="fade4">
+    <line x1="880" y1="190" x2="1130" y2="190" stroke="#30363d" stroke-width="2"/>
+    <rect class="bar"    x="895"  y="110" width="26" height="80"  rx="4" fill="#2A569F"/>
+    <rect class="bar b2" x="935"  y="80"  width="26" height="110" rx="4" fill="#0B6E45"/>
+    <rect class="bar b3" x="975"  y="125" width="26" height="65"  rx="4" fill="#2A569F"/>
+    <rect class="bar b4" x="1015" y="60"  width="26" height="130" rx="4" fill="#0B6E45"/>
+    <rect class="bar b5" x="1055" y="95"  width="26" height="95"  rx="4" fill="#2A569F"/>
+    <rect class="bar b6" x="1095" y="40"  width="26" height="150" rx="4" fill="#FFCC29"/>
+  </g>
+
+  <!-- Pipeline -->
+  <path id="p" d="M 270 270 L 930 270" stroke="url(#line)" stroke-width="2" stroke-dasharray="6 6" fill="none" opacity=".7"/>
+
+  <g class="m" font-size="16" text-anchor="middle">
+    <rect class="node"    x="70"  y="245" width="200" height="50" rx="10" fill="#161b22" stroke="#2A569F" stroke-width="2"/>
+    <text x="170" y="276" fill="#e6edf3">API · Planilhas</text>
+    <rect class="node n2" x="390" y="245" width="140" height="50" rx="10" fill="#161b22" stroke="#2A569F" stroke-width="2"/>
+    <text x="460" y="276" fill="#e6edf3">Python</text>
+    <rect class="node n3" x="650" y="245" width="140" height="50" rx="10" fill="#161b22" stroke="#0B6E45" stroke-width="2"/>
+    <text x="720" y="276" fill="#e6edf3">SQL</text>
+    <rect class="node n4" x="930" y="245" width="200" height="50" rx="10" fill="#161b22" stroke="#FFCC29" stroke-width="2"/>
+    <text x="1030" y="276" fill="#e6edf3">Power BI</text>
+  </g>
+
+  <!-- Dados fluindo -->
+  <g filter="url(#glow)">
+    <circle r="5" fill="#2A569F"><animateMotion dur="3s" repeatCount="indefinite" path="M 270 270 L 390 270"/></circle>
+    <circle r="5" fill="#2A569F"><animateMotion dur="3s" begin="1.5s" repeatCount="indefinite" path="M 270 270 L 390 270"/></circle>
+    <circle r="5" fill="#0B6E45"><animateMotion dur="3s" begin=".5s" repeatCount="indefinite" path="M 530 270 L 650 270"/></circle>
+    <circle r="5" fill="#0B6E45"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M 530 270 L 650 270"/></circle>
+    <circle r="5" fill="#FFCC29"><animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M 790 270 L 930 270"/></circle>
+    <circle r="5" fill="#FFCC29"><animateMotion dur="3s" begin="2.5s" repeatCount="indefinite" path="M 790 270 L 930 270"/></circle>
+  </g>
+</svg>
