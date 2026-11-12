@@ -42,7 +42,6 @@ Transformo processos manuais e planilhas soltas em **apps, automações e painé
 ### 🎓 Formação em andamento
 
 - **Engenharia de Software** · Anhanguera
-- **Análise e Desenvolvimento de Sistemas** · UNIASSELVI
 
 <br>
 
@@ -51,7 +50,7 @@ Transformo processos manuais e planilhas soltas em **apps, automações e painé
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/SEU-USUARIO">LinkedIn</a> ·
-  <a href="mailto:SEU-EMAIL">E-mail</a> ·
+  <a href="https://www.linkedin.com/in/marcelo-reis-845213312/)">LinkedIn</a> ·
+  <a href="Msreis_@hotmail.com">E-mail</a> ·
   <a href="https://www.instagram.com/SEU-USUARIO">Instagram</a>
 </p>
