@@ -1,33 +1,61 @@
-## Olá me chamo Marcelo
-
-👨‍💻 Analista de Sistemas em Formação
-
-📚 Estudante de programação
-
-<div>
-  <a href="https://github.com/Marcelosreiss">
-  <img height="180em"src="https://github-readme-stats.vercel.app/api?username=Marcelosreiss&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marcelosreiss&layout=compact&langs_count=16&theme=dark"/>
-  </div>
- 
- <p largura="49%" altura="195px">
-   
- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
- ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
- ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
- 
- 
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Marcelo Reis · Analista de Dados" width="100%" />
 </p>
-    
-##
- 
-<div> 
-  <a href="https://www.instagram.com/_marcelosreis/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto: msreis0321@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="" target="www.linkedin.com/in/marcelo-reis-845213312"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</div>
+
+```sql
+-- quem sou eu, em uma consulta
+SELECT nome, cargo, foco, cidade
+FROM   pessoas
+WHERE  github = 'Marcelosreiss';
+```
+
+| nome | cargo | foco | cidade |
+|:--|:--|:--|:--|
+| Marcelo Reis | Analista de Dados | Engenharia de Dados · Power Platform | Parauapebas, PA |
+
+<sub>1 linha retornada · 0,002 s</sub>
+
+<br>
+
+Transformo processos manuais e planilhas soltas em **apps, automações e painéis** que as pessoas usam de verdade. Agora estou indo mais fundo no caminho do dado: **APIs, pipelines e modelagem**.
+
+<br>
+
+### 🛠️ Stack
+
+<p align="center">
+  <img src="assets/stack.svg" alt="Stack: Python, Pandas, SQL, APIs REST, Airflow, Git, GitHub, VS Code, Power BI, DAX, Power Query, Power Apps, Power Automate, SharePoint" width="100%" />
+</p>
+
+<br>
+
+### 🔄 Pipeline atual
+
+```text
+ [ fonte ]            [ tratamento ]          [ destino ]            [ entrega ]
+ API Sistema Prover ─▶ Python + Pandas ──────▶ SQL ─────────────────▶ Power BI
+ Arquivos de RH     ─▶ Python ───────────────▶ SharePoint ──────────▶ Power Apps
+```
+
+<br>
+
+### 🎓 Formação em andamento
+
+- **Engenharia de Software** · Anhanguera
+- **Análise e Desenvolvimento de Sistemas** · UNIASSELVI
+
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Marcelosreiss/Marcelosreiss/output/github-snake-dark.svg" />
+    <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/Marcelosreiss/Marcelosreiss/output/github-snake.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/SEU-USUARIO">LinkedIn</a> ·
+  <a href="mailto:SEU-EMAIL">E-mail</a> ·
+  <a href="https://www.instagram.com/SEU-USUARIO">Instagram</a>
+</p>
 
