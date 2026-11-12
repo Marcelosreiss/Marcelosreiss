@@ -47,10 +47,7 @@ Transformo processos manuais e planilhas soltas em **apps, automações e painé
 <br>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Marcelosreiss/Marcelosreiss/output/github-snake-dark.svg" />
-    <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/Marcelosreiss/Marcelosreiss/output/github-snake.svg" />
-  </picture>
+  <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/Marcelosreiss/Marcelosreiss/output/github-contribution-grid-snake.svg" />
 </p>
 
 <p align="center">
